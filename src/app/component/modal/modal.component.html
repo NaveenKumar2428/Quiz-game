@@ -1,0 +1,30 @@
+<h1 mat-dialog-title>Some rules of this Quiz</h1>
+
+<div mat-dialog-content>
+
+    <mat-list role="list">
+        <mat-list-item role="listitem">
+            1. You will Have only 10 seconds per each questions.
+        </mat-list-item>
+        <mat-list-item role="listitem">
+            2. You have Only one chance select your answer.
+        </mat-list-item>
+        <mat-list-item role="listitem">
+            3. You cannot select any options once time goes off.
+        </mat-list-item>
+        <mat-list-item role="listitem">
+            4. You cannot Exit from the Quiz Once Started.
+        </mat-list-item>
+    </mat-list>
+      
+      
+
+</div>
+
+
+<div mat-dialog-actions>
+
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button (click)="startQuiz()">OK</button>
+
+</div>

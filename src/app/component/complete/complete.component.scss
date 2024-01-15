@@ -1,0 +1,77 @@
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.mat-card{
+    max-width: 50%;
+    padding-bottom: 2rem;
+}
+
+.mat-card-title{
+    text-align: center;
+}
+
+h1 {
+    padding-top: 3rem;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: cursive;
+    color: darkkhaki;
+}
+
+h2{
+    padding-top: 2rem;
+    font-family: 'Baloo Paaji', cursive;
+    font-size: calc(18px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+    font-weight: 800;   
+    opacity: 1;
+    color: black;
+    text-align: center;
+    letter-spacing: 2.6px;
+}
+
+#chart{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 6rem;
+}
+
+.mat-card-actions{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+
+    .mat-card{
+        max-width: 100%;
+    }
+
+}
+
+
+
+@media (max-width: 450px) {
+
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #chart{
+        padding-left: 0rem;
+    }
+
+
+    button {
+        font-size: 15px
+    }
+
+}

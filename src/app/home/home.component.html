@@ -1,0 +1,78 @@
+<div class="row">
+
+  <div class="column">
+
+    <div class="coding-image">
+      <img mat-card-image src="/assets/images/boy.jpg" alt="">
+    </div>
+
+  </div>
+
+  <div class="column">
+
+    <h2>Take the Ultimate Quiz Challenge!</h2>
+
+   <div class="quiz">
+
+    <mat-card>
+
+      <mat-card-title>
+
+        <br>
+
+        <div style="display: flex; justify-content: center;align-items: center;">
+
+          <div class="img-container">
+            <img src="/assets/images/angular.png" class="lang">
+          </div>
+
+          <div class="img-container">
+            <img src="/assets/images/Js.png" class="lang">
+          </div>
+
+          <div class="img-container">
+            <img src="/assets/images/bootstrap.png" class="lang">
+          </div>
+
+          <div class="img-container">
+            <img src="/assets/images/html.png" class="lang">
+          </div>
+
+        </div>
+
+        <hr>
+
+        <h1>Let's Start the Quiz</h1>
+      </mat-card-title>
+
+      <mat-card-content>
+
+        <h3 style="padding-top: 1rem;">Select the topic</h3>
+
+
+        <section class="example-section">
+          <mat-checkbox class="example-margin" [(ngModel)]="selectedItems.html_Questions">HTML</mat-checkbox>
+          <mat-checkbox class="example-margin" [(ngModel)]="selectedItems.angular_Questions">Angular</mat-checkbox>
+          <mat-checkbox class="example-margin" [(ngModel)]="selectedItems.javaScript_Questions">JavaScript</mat-checkbox>
+          <mat-checkbox class="example-margin" [(ngModel)]="selectedItems.bootstrap_Questions">Bootstrap</mat-checkbox>
+        </section>
+
+      </mat-card-content>
+
+      <mat-card-actions style="padding-top: 3rem;">
+        <button mat-raised-button color="accent" (click)="start()">Start Quiz</button>
+
+        <br><br>  
+
+      </mat-card-actions>
+
+    </mat-card>
+
+   </div>
+
+
+
+  </div>
+  
+</div>
+

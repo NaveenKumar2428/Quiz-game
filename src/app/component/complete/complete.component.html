@@ -1,0 +1,44 @@
+
+<div class="card">
+
+    <mat-card>
+
+        <mat-card-title>
+            <h1>Congrats</h1>
+            <h2>Successfully You have Complete the Quiz!</h2>
+        </mat-card-title>
+    
+        <mat-card-content>
+    
+            <div id="chart">
+                <apx-chart
+                  [series]="chartOptions.series"
+                  [chart]="chartOptions.chart"
+                  [labels]="chartOptions.labels"
+                  [dataLabels]="chartOptions.dataLables"
+                  [colors]="chartOptions.colors"
+                  [responsive]="chartOptions.responsive"
+                ></apx-chart>
+            </div>
+    
+    
+            <div>
+                <h2>
+                    You got {{correctAnswer}} out of {{totalQuestions}}.
+                </h2>
+            </div>
+    
+        </mat-card-content>
+    
+        <mat-card-actions>
+        
+            <button mat-raised-button color="primary" (click)="replay()">Replay Quiz</button>
+    
+        </mat-card-actions>
+    
+    
+    </mat-card>
+
+</div>
+
+

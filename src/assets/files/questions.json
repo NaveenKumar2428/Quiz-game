@@ -1,0 +1,567 @@
+[
+    {
+        "html_Questions":[
+
+            {
+                "question_Id":1,
+                "question": "What is the full form of HTML ?",
+                "options": [
+
+
+                    {
+                        "choice": "A",
+                        "answer": "The full form of HTML is HyperText Markup Language",
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "The full form of HTML is HyperText Machine Language",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "The full form of HTML is HyperText Marking Language",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "The full form of HTML is HighText Marking Language",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":2,
+                "question": "Which HTML5 element is used to style the layout?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "jQuery",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "CSS",    
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "JavaScript",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "PHP",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":3,
+                "question": "In HTML, which tag is used to make a numbered list?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "<ol>",
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "<ul>",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "<li>",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "<ll>",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":4,
+                "question": "Which of the following is not an HTML table layout element?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "alignment",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "colour",    
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "size",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "span",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":5,
+                "question": "HTML is a subset of",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "SGMT",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "SGME",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "XHTML",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "SGML",
+                        "is_Correct": true
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "javaScript_Questions":[
+
+            {
+                "question_Id":1,
+                "question": "Which type of JavaScript language is",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "Object-Oriented",
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "Object-Based",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "Assembly-language",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "High-level",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":2,
+                "question": "Which event is related to the keyboard?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "onkeydown",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "onkeypress",    
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "onclick",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "onfocus",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":3,
+                "question": "Which one of the following also known as Conditional Expression?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "Alternative to if-else",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "Switch statement",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "If-then-else statement",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "immediate if",
+                        "is_Correct": true
+                    }
+                ]
+            },
+
+            {
+                "question_Id":4,
+                "question": "The 'function' and 'var' are known as",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "Keywords",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "Data types",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "Declaration statements",
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "Prototypes",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":5,
+                "question": "In JavaScript the x===y statement implies that",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "Both x and y are equal in value, type and reference address as well",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "Both are x and y are equal in value only",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "Both are not same at all",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "Both are equal in the value and data type",
+                        "is_Correct": true
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "angular_Questions":[
+
+            {
+                "question_Id":1,
+                "question": "Angular is primarily considered as?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "JavaScript Framework",
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "CSS Framework",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "content management system",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "database system",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":2,
+                "question": "Which command is used to create a new Angular project?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "npm create angular-app",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "angular init project-name",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "ng new project-name",
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "npm start angular",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":3,
+                "question": "How do you bind data to an attribute in Angular?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "{{variable}}",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "(variable)",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "=variable=",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "[variable]",
+                        "is_Correct": true
+                    }
+                ]
+            },
+
+            {
+                "question_Id":4,
+                "question": "Which directive is used in Angular to add/remove an HTML element from the DOM based on a condition?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "*ngFor",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "*ngSelect",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "*ngSwitch",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "*ngIf",
+                        "is_Correct": true
+                    }
+                ]
+            },
+
+            {
+                "question_Id":5,
+                "question": "What does a pipe do in Angular?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "Transforms data in the template",
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "Merges streams of data",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "Opens a direct connection to the server",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "Connects two components",
+                        "is_Correct": false
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "bootstrap_Questions":[
+
+            {
+                "question_Id":1,
+                "question": "The Bootstrap grid system is based on how many columns?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "4",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "6",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "8",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "12",
+                        "is_Correct": true
+                    }
+                ]
+            },
+
+            {
+                "question_Id":2,
+                "question": "The content must be placed within ________ in Bootstrap",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "Rows",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "Columns",    
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "None of the mentioned",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "Containers",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":3,
+                "question": "Which plugin is used to cycle through elements, like a slideshow?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "Carousel Plugin",
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "Modal Plugin",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "Tooltip Plugin",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "None of the mentioned",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":4,
+                "question": "What is the font size of <h3> in Bootstrap 4 by default?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "19 px",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "28 px",    
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "20 px",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "None of the above",
+                        "is_Correct": false
+                    }
+                ]
+            },
+
+            {
+                "question_Id":5,
+                "question": "Which among the following grid classes can be used for desktop?",
+                "options": [
+                    {
+                        "choice": "A",
+                        "answer": "md",
+                        "is_Correct": true
+                    },
+                    {
+                        "choice": "B",
+                        "answer": "None of the above",    
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "C",
+                        "answer": "xs",
+                        "is_Correct": false
+                    },
+                    {
+                        "choice": "D",
+                        "answer": "sm",
+                        "is_Correct": false
+                    }
+                ]
+            }
+
+        ]
+    }
+]

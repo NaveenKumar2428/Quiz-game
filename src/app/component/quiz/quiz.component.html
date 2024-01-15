@@ -1,0 +1,58 @@
+<div class="row" *ngIf="questionList.length > 0">
+    <div class="timer">
+
+        <span class="circle">{{countdownValue}}</span>
+      
+    </div>
+
+    <h1 class="question">{{currentQuestionNumber + 1}}. {{questionList[currentQuestionNumber].question}}</h1>
+
+
+    <div class="options">
+
+   
+        <div class="wrapper">
+
+            <div *ngFor="let option of questionList[currentQuestionNumber].options">
+
+                <div class="quiz-options">
+                    <label 
+                    [ngClass]="{'disabled': disableOptions(questionList[currentQuestionNumber].options),
+                    'correct': option.isSelected && option.is_Correct,
+                    'incorrect': option.isSelected && !option.is_Correct}" 
+                    (click)="selectedOption(option)">
+
+                        <span [ngClass]="{'crt': option.isSelected && option.is_Correct,
+                        'incrt': option.isSelected && !option.is_Correct}" >{{option.choice}}</span>
+                        {{option.answer}}
+                    </label>
+                </div>
+
+
+            </div>
+
+        </div>
+          
+
+
+    </div>
+
+
+    <div class="footer">
+
+        <div class="blance-question">
+
+            <button class="gb gb-bordered gb-rounded" id="gb2"> {{currentQuestionNumber + 1}} of {{questionList.length}} Question</button>
+          
+        </div>
+
+        <div class="btn">
+
+            <button mat-raised-button *ngIf="currentQuestionNumber + 1 == questionList.length" color="accent" (click)="finish()">Finish</button>
+            <button mat-raised-button *ngIf="currentQuestionNumber + 1 !== questionList.length" color="warn" (click)="nextQuestion()">Next</button>
+
+        </div>
+
+    </div>
+
+</div>
